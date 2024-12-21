@@ -1,5 +1,5 @@
+const { log } = require('console');
 const readline = require('readline');
-
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -7,20 +7,21 @@ const rl = readline.createInterface({
 
 function solve() {
 
-    rl.question('Enter you equation: ', (input) => {
+    rl.question('Enter your equation: ', (input) => {
         const equation = input.trim();
-        if (equation.toLowerCase() === 'quit') {
+        if (equation === 'quit') {
             rl.close();
         } else {
             try {
                 const answer = eval(equation);
                 console.log(`The answer is: ${answer}`);
-            } catch (error) {
-                console.log('Invalid input');
-            
+            }
+            catch (error) {
+                console.log('Invalid Equation');
             }
             solve();
         }
+
     })
 }
 solve();
