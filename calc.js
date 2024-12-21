@@ -1,16 +1,18 @@
 process.stdin.on('data', (input) => {
-    sum = input.toString().trim();
+    const expression = input.toString().trim();
 
-    if (sum.toLowerCase() === 'exit') {
+    if (expression.toLowerCase() === 'quit') {
         process.exit(0);
-    }
+    }    
     try {
-        const sumOutput = eval(sum);
-        console.log(sumOutput);
+        const answer = eval(expression)
+        console.log(answer);
         
-    } catch (exception) {
-        console.log('Error: ' + exception.message);
     }
-process.stdout.write('Enter your input: ');
+    catch (exception) {
+        console.log('Invalid input');
+        
+    }
+   process.stdout.write('Enter your expression: ') 
 })
-process.stdout.write('Enter your input: ');
+process.stdout.write('Enter your expression: ')
