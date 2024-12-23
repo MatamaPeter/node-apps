@@ -1,3 +1,0 @@
-Hello, my name is Peter!
- 
-I appended this line
