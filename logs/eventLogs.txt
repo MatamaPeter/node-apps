@@ -1,0 +1,2 @@
+2024/12/24	09:08:13 	 bd37c0ff-dd47-4ce4-87d4-dec7f3832daf 	 Log event emmitted
+2024/12/24	09:08:16 	 9a35eb0c-5ec1-4c0f-9c29-aa6104b04363 	 Log event emmitted
