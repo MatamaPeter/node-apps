@@ -18,11 +18,11 @@
     "url": "https://github.com/MatamaPeter/node-apps/issues"
   },
   "homepage": "https://github.com/MatamaPeter/node-apps#readme",
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  },
   "dependencies": {
     "date-fns": "^4.1.0",
     "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }

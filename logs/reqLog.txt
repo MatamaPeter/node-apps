@@ -1,0 +1,4 @@
+2024/12/24	11:23:08 	 84b89ec4-6d3e-4a4f-9c13-be37f7ba23a8 	 / 	 GET
+2024/12/24	11:24:00 	 98cbab90-f908-4882-9b5f-6462f06f44aa 	 / 	 GET
+2024/12/24	11:24:00 	 13aea961-8b13-4db1-839f-a97b8551ec70 	 /img/test.jpg 	 GET
+2024/12/24	11:24:00 	 6c928e5e-0f75-40dd-97eb-2c3acb541bd3 	 /favicon.ico 	 GET
